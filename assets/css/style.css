@@ -305,7 +305,6 @@ margin: 20px 0;
   text-align: center;
   color: white;
 }
-
 .grid_1, .grid_2, .grid_3, .grid_4, .grid_5, .grid_6, .grid_7, .grid_8{
   /* border-right: 0.5px solid white; */
   border: 0.10px solid white;
@@ -327,7 +326,6 @@ margin: 20px 0;
 .logo_grid{
   height: 18%;
   margin-top: 15px;
-
 }
 .grid_top h2, .grid_bottom h2{
   font-size: 45px;
@@ -349,20 +347,84 @@ margin: 20px 0;
   font-weight: normal;
   position: relative;
 }
+/* fine community */
 
 
-
-
-
-
-
-
-
-
-
+/* testimonials */
 .row_testimonials{
-  height: 500px;
+  margin: 50px 0;
 }
+.testimonials_top_left{
+  width: 25%;
+  padding-right: 50px;
+  text-align: center;
+}
+.testimonials_top_left h2{
+  color: #33475B;
+  font-size: 45px;
+  margin-bottom: 20px;
+}
+.testimonials_top_left p{
+  color: #33475B;
+  font-size: 16px;
+  line-height: 24px;
+  text-align: center;
+}
+.testimonials_top_right{
+  width: 75%;
+  padding: 50px;
+  text-align: center;
+}
+.testimonials_top_right img{
+  width: 20%;
+  padding: 10px;
+  vertical-align: middle;
+  text-align: right;
+  position: relative;
+  left: 15%;
+}
+.testimonials_bottom_left{
+  width: 50%;
+  text-align: left;
+}
+.testimonials_bottom_left h2{
+  color: #33475B;
+  font-size: 32px;
+  margin-bottom: 15px;
+}
+.testimonials_bottom_left p{
+  color: #33475B;
+  font-size: 16px;
+  line-height: 22px;
+  margin-bottom: 25px;
+}
+.testimonials_bottom_right{
+  width: 50%;
+}
+.testimonials_bottom_right img{
+  width: 50%;
+  position: relative;
+  left: 45%;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 /* footer */
