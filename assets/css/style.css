@@ -171,7 +171,7 @@ nav{
 /* main */
 /* services */
 .row_services{
-  height: 1000px;
+  height: 1800px;
 }
 .intro{
   text-align: center;
@@ -229,6 +229,52 @@ hr{
   font-size: 14px;
   margin-right: 20px;
 }
+
+/* card_2 */
+.row_services_bottom{
+  margin-top: 50px;
+}
+.card_2, .card_3, .card_4{
+  width: 300px;
+  padding: 40px 50px;
+  border-radius: 5px;
+  box-shadow: 0 0 10px #D2D8DD;
+  text-align: center;
+}
+.img_card{
+  width: 80px;
+}
+.row_services_bottom::after{
+  content: "";
+  display: table;
+  clear: both;
+}
+.card_3{
+  margin: 0 50px;
+}
+.card_2 h3, .card_3 h3, .card_4 h3{
+color: #33475B;
+margin: 20px 0;
+}
+.card_2 hr, .card_3 hr, .card_4 hr{
+  margin: 20px 0;
+}
+.card_2 h4, .card_3 h4, .card_4 h4{
+  color: #33475B;
+  margin-bottom: 20px;
+}
+.row_services ul li{
+  color: #33475B;
+  text-align: left;
+  list-style: none;
+  font-size: 14px;
+}
+.row_services ul{
+  margin-bottom: 40px;
+}
+
+
+
 
 
 .row_community{
