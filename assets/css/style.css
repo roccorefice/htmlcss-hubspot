@@ -237,7 +237,7 @@ hr{
   margin-right: 20px;
 }
 
-/* card_2 */
+/* card_2 , card_3 card_4 */
 .row_services_bottom{
   margin-top: 50px;
 }
@@ -282,13 +282,83 @@ margin: 20px 0;
 .list_check{
   color: #FE775A;
 }
+/* fine services */
 
 
+/* community */
 
-
-.row_community{
-  height: 500px;
+.community_text{
+  text-align: center;
 }
+.community_text h2{
+  color: white;
+  padding: 25px 10px;
+  font-size: 28px;
+}
+.community_text p{
+  color: white;
+  font-size: 14px;
+  line-height: 22px;
+}
+.community_grid{
+  padding: 50px 0 70px 0;
+  text-align: center;
+  color: white;
+}
+
+.grid_1, .grid_2, .grid_3, .grid_4, .grid_5, .grid_6, .grid_7, .grid_8{
+  /* border-right: 0.5px solid white; */
+  border: 0.10px solid white;
+  height: 150px;
+  width: 250px;
+}
+.grid_5, .grid_6, .grid_7, .grid_8{
+  border-bottom: 0;
+}
+.grid_1, .grid_2, .grid_3, .grid_4{
+  border-top: 0;
+}
+.grid_1, .grid_5{
+  border-left: 0;
+}
+.grid_4, .grid_8{
+  border-right: 0;
+}
+.logo_grid{
+  height: 18%;
+  margin-top: 15px;
+
+}
+.grid_top h2, .grid_bottom h2{
+  font-size: 45px;
+  margin-top: 5px;
+}
+.grid_top p, .grid_bottom p{
+  font-size: 14px;
+  margin-top: 10px;
+}
+.grid_top h2::after{
+  content: "+";
+  font-size: 20px;
+  font-weight: normal;
+  position: relative;
+}
+.grid_bottom h2::after{
+  content: "+";
+  font-size: 20px;
+  font-weight: normal;
+  position: relative;
+}
+
+
+
+
+
+
+
+
+
+
 
 .row_testimonials{
   height: 500px;
