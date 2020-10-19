@@ -225,7 +225,7 @@ nav{
   margin: 20px 0 20px 0;
   display: inline-block;
 }
-hr{
+.card_1_right hr{
   display: inline-block;
   width: 70%;
   vertical-align: middle;
@@ -406,29 +406,79 @@ margin: 20px 0;
   position: relative;
   left: 45%;
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+.testimonials_bottom_left > p:nth-child(4){
+  color: #33475B;
+  font-size: 12px;
+  margin-top: 50px;
+}
+/* fine testimonials */
 
 
 
 /* footer */
+.col_footer_1, .col_footer_2, .col_footer_3, .col_footer_4{
+  width: 25%;
+  color: white;
+  text-align: left;
+  padding: 50px 20px;
+}
+.footer_top h4{
+  margin-bottom: 25px;
+}
+.footer_top ul li{
+  list-style: none;
+}
+.footer_top a{
+  text-decoration: none;
+  color: #C5CFDC;
+  font-size: 14px;
+  line-height: 35px;
+  font-weight: bold;
+}
+.btn_footer{
+  text-decoration: none;
+  border-radius: 5px;
+  padding: 7px;
+  background-color: #C5CFDC;
+}
+.col_footer_4 > a{
+  color: #33475B;
+  font-size: 13px;
+  font-weight: 500;
+}
+.social_container a{
+  margin-left: 12px;
+}
+.languages{
+  text-align: center;
+}
+.languages a{
+  color: #C5CFDC;
+  text-decoration: none;
+  font-size: 14px;
+}
+.languages ul li{
+  list-style: none;
+  display: inline-block;
+  padding-right: 15px;
+  margin-bottom: 10px;
+}
+.copyright{
+  width: 50%;
+  padding: 20px;
+  text-align: left;
+  color: #C5CFDC;
+}
+.policy{
+  padding: 20px;
+  width: 50%;
+  display: inline-block;
+  text-align: right;
+}
+.policy a{
+  color: #C5CFDC;
+  text-decoration: none;
+  padding-left: 10px;
+  font-size: 14px;
 
-#site_footer{
-  height: 300px;
 }
