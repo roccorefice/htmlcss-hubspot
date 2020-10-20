@@ -61,7 +61,7 @@
   clear: both;
 }
 
-*body{
+body{
   min-width:1400px;
   font-family: helvetica;
 }
@@ -78,6 +78,7 @@ nav{
   position: fixed;
   top: 0;
   left: 0;
+  z-index: 3;
 }
 .earth{
   color: white;
@@ -93,6 +94,10 @@ nav{
 .nav_top_left{
   width: 50%;
   text-align: left;
+}
+.fa-chevron-down::after{
+  content: "  |   ";
+  color: grey;
 }
 .btn_border{
   text-decoration: none;
@@ -115,6 +120,10 @@ nav{
   padding: 10px;
   background-color: #FE775A;
   margin-left: 20px;
+}
+.fa-search{
+  color: #42A9C1;
+  margin-right: 15px;
 }
 .nav_top_right{
   width: 50%;
