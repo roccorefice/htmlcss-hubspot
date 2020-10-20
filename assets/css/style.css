@@ -95,8 +95,8 @@ nav{
   width: 50%;
   text-align: left;
 }
-.fa-chevron-down::after{
-  content: "  |   ";
+.nav_top_left .fa-chevron-down::after{
+  content: "  |";
   color: grey;
 }
 .btn_border{
